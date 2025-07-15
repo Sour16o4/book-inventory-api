@@ -30,9 +30,9 @@ func Connect() {
 		panic("Failed to connect to database!")
 	}
 
-	// 🔥 Add AutoMigrate here
+	//  Add AutoMigrate here
 	db.AutoMigrate(&models.Book{})
 
-	fmt.Println("✅ Connected to PostgreSQL successfully.")
+	fmt.Println("Connected to PostgreSQL successfully.")
 	DB = db
 }
