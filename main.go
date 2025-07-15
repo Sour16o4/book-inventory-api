@@ -14,5 +14,5 @@ func main() {
 	routes.SetupRoutes(r)
 
 	// Start server
-	r.Run(":8080") // 🚀 This line is CRITICAL
+	r.Run(":8080") 
 }
